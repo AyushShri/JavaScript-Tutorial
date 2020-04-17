@@ -22,3 +22,4 @@ Libraries contain methods that can be called by appending the library name with 
 
  Math.random();
 //☝️ Math is the library
+
