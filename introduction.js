@@ -2,6 +2,13 @@
 
 JavaScript is a programming language that powers the dynamic behavior on most websites. Alongside HTML and CSS, it is a core technology that makes the web run. It is a scripting language.
 
+
+-- Camel case
+It is the practice of writing phrases such that each word or abbreviation in the middle of the phrase
+begins with a capital letter, with no intervening spaces or punctuation. i.e every First Letter of every Word Except the First Word is UpperCase.
+Example: let camelCase. We Write Js codes in camel Case
+
+
 -- Console.log()
 The console.log() method is used to log or print messages to the console. It can also be used to print objects and other info.
 Important: Console here is an Object. We shall discuss about these Objects later.
