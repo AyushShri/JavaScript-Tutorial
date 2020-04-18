@@ -1,4 +1,5 @@
-                                                           JavaScript
+ <meta name="google-site-verification" content="QFfxWLqpw6D64US3CFVhE7yC1yOscxJ9Emt1JyWvzfk" />  
+                                                            JavaScript
 
 JavaScript is a programming language that powers the dynamic behavior on most websites. Alongside HTML and CSS, it is a core technology that makes the web run. It is a scripting language.
 
