@@ -86,3 +86,65 @@ let oppositeValue = !lateToWork;
 
 console.log(oppositeValue); 
 // Prints: false
+
+
+-- Comparison Operators
+Comparison operators are used to comparing two values and return true or false depending on the validity of the comparison:
+
+=== strict equal
+!== strict not equal
+> greater than
+>= greater than or equal
+< less than
+<= less than or equal
+//example
+1 > 3       // false
+3 > 1       // true
+250 >= 250  // true
+1 === 1     // true
+1 === 2     // false
+1 === '1'   // false
+
+
+-- Switch Statement
+The switch statements provide a means of checking an expression against multiple case clauses. If a case matches, the code inside that clause is executed.
+
+The case clause should finish with a break keyword. If no case matches but a default clause is included, the code inside default will be executed.
+
+Note: If break is omitted from the block of a case, the switch statement will continue to check against case values until a break is encountered or the flow is broken.
+
+//example
+const food = 'salad';
+
+switch (food) {
+  case 'oyster':
+    console.log('The taste of the sea 🦪');
+    break;
+  case 'pizza':
+    console.log('A delicious pie 🍕');
+    break;
+  default:
+    console.log('Enjoy your meal');
+}
+
+// Prints: Enjoy your meal
+
+
+-- Ternary Operator
+The ternary operator allows for a compact syntax in the case of binary (choosing between two choices) decisions. It accepts a condition followed by a ? operator, and then two expressions separated by a :. If the condition evaluates to truthy, the first expression is executed, otherwise, the second expression is executed.
+
+//example
+let price = 10.5;
+let day = "Monday";
+
+day === "Monday" ? price -= 1.5 : price += 1.5;
+
+
+-- Truthy and Falsy
+In JavaScript, values evaluate to true or false when evaluated as Booleans.
+
+Values that evaluate to true are known as truthy
+Values that evaluate to false are known as falsy
+Falsy values include false, 0, empty strings, null undefined, and NaN.
+All other values are truthy.
+
