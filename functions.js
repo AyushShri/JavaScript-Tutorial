@@ -63,3 +63,76 @@ function sum(num1, num2) {
   num1 + num2;
 }
 
+
+-- Function Expressions
+Function expressions create functions inside an expression instead of as a function declaration. They can be anonymous and/or assigned to a variable.
+
+const dog = function() {
+  return 'Woof!';
+}
+
+                                                      -- SOME VERY IMPORTANT FUNCTIONS --
+- Arrow Functions (=>) (ES6)
+Arrow function expressions were introduced in ES6. These are also anonymous function which do not need neither a 'function' keyword neither a function name.
+ These expressions are clean and concise.
+ The syntax for an arrow function expression does not require the function keyword and uses a fat arrow => to separate the parameter(s) from the body.
+
+There are several variations of arrow functions:
+
+Arrow functions with a single parameter do not require () around the parameter list.
+Arrow functions with a single expression can use the concise function body which returns the result of the expression without the return keyword.
+
+// example-  
+const developer = (paramaters, separated, by, commas) =>{
+ 	function body 
+ };
+
+// Arrow function with two arguments 
+const sum = (firstParam, secondParam) => { 
+  return firstParam + secondParam; 
+}; 
+console.log(sum(2,5)); // Prints: 7 
+
+// Arrow function with no arguments 
+const printHello = () => { 
+  console.log('hello'); 
+}; 
+printHello(); // Prints: hello
+
+// Arrow functions with a single argument 
+const checkWeight = weight => { 
+  console.log(`Baggage weight : ${weight} kilograms.`); 
+}; 
+checkWeight(25); // Prints: Baggage weight : 25 kilograms.
+
+
+// Concise arrow functions
+const multiply = (a, b) => a * b; 
+console.log(multiply(2, 30)); // Prints: 60
+
+
+- Anonymous Functions
+Anonymous functions in JavaScript do not have a name property. They can be defined using the function keyword, or as an arrow function.
+See the code example for the difference between a named function and an anonymous function.
+
+// Named function
+function rocketToMars() {
+  return 'BOOM!';
+}
+
+// Anonymous function
+const rocketToMars = function() {
+  return 'BOOM!';
+}
+
+
+- Helper Functions
+ A function when called inside the body of another function is called a helper function.
+
+// example 
+let function1() =>
+{
+	body
+	function2();
+ }
+// here function2() is a helper function to function1()
