@@ -1,4 +1,4 @@
-                                                           Arrays
+                                                         Arrays
 -- Arrays are lists of ordered, stored data. They can hold items that are of any data type. 
 Arrays are created by using square brackets, with individual elements separated by commas.
 
@@ -68,4 +68,27 @@ Below, we will explore some methods that we have not learned yet.
 You should also consult the MDN documentation to learn what each method does !	
 
 -- Use the .shift() method to remove the first item from the array
+
 -- Use the .unshift() method to addd an item at the beginning of the array
+
+-- slice()
+The slice() method returns the selected elements in an array, as a new array object.
+
+The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+
+Imp: The original array will not be changed i.e it does not mutate the array.
+
+
+-- splice()
+The splice() method adds/removes items to/from an array, and returns the removed item(s).
+Note: This method changes the original array i.e it makes the array mutable.
+
+Syntax-
+array.splice(index, howmany, item1, ....., itemX)
+                                                    Parameter Values
+Parameter-
+index	Required. An integer that specifies at what position to add/remove items, use negative values to specify the position from the end of the array.
+
+howmany	Optional. The number of items to be removed. If set to 0, no items will be removed.
+
+item1, ..., itemX	Optional. The new item(s) to be added to the array.
