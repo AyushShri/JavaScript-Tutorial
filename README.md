@@ -5,3 +5,4 @@ Copyright 2020  \
 2- Conditionals. \
 3- Functions in Js. \
 4- Scope in js.\
+5- Arrays in Js.\
