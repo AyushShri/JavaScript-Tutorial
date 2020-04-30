@@ -60,3 +60,12 @@ const poppedIngredient = ingredients.pop(); // 'chocolate'
 console.log(ingredients); // ['eggs', 'flour']
 
 
+-- More Array methods
+Some arrays methods that are available to JavaScript developers include: .join(), .slice(), .splice(), .shift(), .unshift(),
+ and .concat() amongst many others. Using these built-in methods make it easier to do some common tasks when working with arrays.
+
+Below, we will explore some methods that we have not learned yet.
+You should also consult the MDN documentation to learn what each method does !	
+
+-- Use the .shift() method to remove the first item from the array
+-- Use the .unshift() method to addd an item at the beginning of the array
